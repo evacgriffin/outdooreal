@@ -7,6 +7,18 @@ html, body {
     background-color: hsl(174.1,40.6%,90%);
 }
 
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2 {
+    color: #062925;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -15,10 +27,11 @@ nav {
     height: 100px;
     margin: 0;
     padding: 0;
-    top: 0;
-    background-color: #062925;
+    background-color: #044a42;
     border-bottom: 5px solid seashell;
     position: fixed;
+    top: 0;
+    z-index: 5;
 }
 
 nav ul {
@@ -41,18 +54,35 @@ li a:hover {
     color: hsl(24.7,100%,85%);
 }
 
+li a:active {
+    text-decoration: none;
+    color: hsl(24.7,100%,85%);
+}
+
 .header {
     display: flex;
     position: relative;
-    top: 100px;
+    margin-top: 105px;
     justify-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
+    height: 700px;
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+    border-bottom: 5px solid seashell;
 }
 
 .header h1 {
     font-size: 50px;
+    margin-top: 125px;
+}
+
+#about {
+    border-bottom: 5px solid seashell;
+}
+
+#about p {
+    text-align: center;
 }
 
 .first-color { 
