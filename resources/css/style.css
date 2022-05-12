@@ -136,6 +136,23 @@ nav li a:hover {
     width: 275px;
     border: 2px solid #062925;
     border-radius: 10px 10px 10px 10px;
+    margin: 20px;
+}
+
+.team-member .member-name {
+    text-decoration: underline;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.team-member .member-name, .job-title {
+    font-family: 'Shadows Into Light', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.team-member .job-title {
+    padding-top: 0;
+    margin-top: 0;
 }
 
 #reviews {
@@ -164,13 +181,18 @@ nav li a:hover {
     border: 2px solid #062925;
     border-radius: 10px 10px 10px 10px;
     background-color: seashell;
-    margin: 0px 10px;
+    margin: 10px 10px;
     justify-content: center;
     align-content: center;
 }
 
 #contact {
     border-bottom: 5px solid seashell;
+}
+
+#contact h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 footer {
